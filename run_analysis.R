@@ -38,6 +38,7 @@ new_names <- sub("\\-Y","Y",new_names)
 new_names <- sub("\\-Z","Z",new_names)
 names(subset_data) <- new_names
 ## Creating a second, independent tidy data set with the average of each variable for each activity and subject
+library(dplyr)
 final_data <- subset_data %>% group_by(activity,subject) %>% summarize_all(funs(mean))
 
 
