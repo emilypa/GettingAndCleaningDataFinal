@@ -40,6 +40,6 @@ names(subset_data) <- new_names
 ## Creating a second, independent tidy data set with the average of each variable for each activity and subject
 library(dplyr)
 final_data <- subset_data %>% group_by(activity,subject) %>% summarize_all(funs(mean))
-
+write.table(final_data,"./tidydata.txt")
 
 
