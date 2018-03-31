@@ -21,7 +21,7 @@ colnames(train_data)[1] <- "subject"
 ## Merge the training and test sets
 mergeData <- rbind(test_data,train_data)
 ## Extract only measurements on the mean and standard deviation for each measurement
-subset_data <- mergeData[,grepl("mean|std|subject_id|activity",names(mergeData))]
+subset_data <- mergeData[,grepl("mean|std|subject|activity",names(mergeData))]
 ## Use descriptive activity names to name the activities in the data set
 subset_data$activity[subset_data$activity == "1"] <- "Walking"
 subset_data$activity[subset_data$activity == "2"] <- "Walking_Upstairs"
