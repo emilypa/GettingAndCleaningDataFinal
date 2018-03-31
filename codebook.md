@@ -1,19 +1,19 @@
-##Final Project Codebook
+#Final Project Codebook
 
-activity
-  one of six different activities that the subject could perform.
-  WALKING 
-  WALKING_UPSTAIRS 
-  WALKING DOWNSTAIRS 
-  SITTING 
-  STANDING
-  LAYING
-subject 
-  number that identifies the subject who performed the activity ranging     between one through thirty. 
-tBodyAcc mean X
-  the mean of the body acceleration in the X direction, measured with respect to time.
-tBodyAcc mean Y
-  the mean of the body acceleration in the Y direction, measured with respect to time.
+*activity
+**one of six different activities that the subject could perform.
+**WALKING 
+**WALKING_UPSTAIRS 
+**WALKING DOWNSTAIRS 
+**SITTING 
+**STANDING
+**LAYING
+*subject 
+**number that identifies the subject who performed the activity ranging between one through thirty. 
+*tBodyAcc mean X
+**the mean of the body acceleration in the X direction, measured with respect to time.
+*tBodyAcc mean Y
+ **the mean of the body acceleration in the Y direction, measured with respect to time.
 tBodyAcc mean Z
   the mean of the body acceleration in the Z direction, measured with respect to time.
 tBodyAcc std X
